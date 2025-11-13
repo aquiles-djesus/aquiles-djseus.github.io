@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    background-color: #fcca5fc9;
+    margin: 0;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #f5a700c9;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+header input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header i {
+    cursor: pointer;
+    color: #006effc9;
+}
+header span {
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+#𐄂 {
+    color: rgb(247, 30, 30);
+    padding: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#✓ {
+    color: rgb(8, 231, 8);
+    padding: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffc039e1;
+    padding: 10px 0;
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+}
+
+ul li:nth-child(odd){
+    background-color: #ffae00e1;
+}
+
+ul li:hover {
+    background-color: #c98a02c9;
+}
+
+ul li span {
+    width: 80%;
+    text-transform: uppercase;
+}
+
